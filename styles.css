@@ -1,5 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  text-align: center;
+  background: #c9d7dd;
+}
+
+.banner {
+  height: 25vh;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#main {
+  text-align: center;
+  width: 90%;
+  max-width: 450px;
+  margin: auto;
+}
+
+#title {
+  font-family: 'Castoro Titling', serif;
+  color: #7e1717;
+  margin: 0.7em 0;
+}
+
+#converter-div {
+  border: 1px solid black;
+  padding: 2em;
+}
+
+#converter-div label,
+#converter-div input {
+  display: block;
+  margin-bottom: 0.6em;
+}
+
+#converter-div label {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #7e1717;
+}
+
+#number {
+  width: 100%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 2em;
+}
+
+#converter-btn {
+  width: 100%;
+  cursor: pointer;
+  font-size: 23px;
+  padding: 10px;
 }
