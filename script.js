@@ -19,7 +19,7 @@ const romanNumerals = [
 ];
 const arabicNumerals = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 
-function onConvertNumberSubmit() {
+function onConvertButtonClick() {
   const enteredNumber = parseInt(inputElement.value);
   if (!enteredNumber && enteredNumber != 0) {
     outputDiv.textContent = 'Please enter a valid number';
@@ -51,4 +51,4 @@ function convert(number) {
   return convertedNumber;
 }
 
-convertButton.addEventListener('click', onConvertNumberSubmit);
+convertButton.addEventListener('click', onConvertButtonClick);
